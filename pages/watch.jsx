@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../components/navbar'
-import Watch from '../components/watch'
+import Navbar from '../components/navbar.jsx'
+import Watch from '../components/watch.jsx'
 
 const WatchPage = () => {
   return (
@@ -11,4 +11,4 @@ const WatchPage = () => {
   )
 }
 
-export default WatchPage
+export default WatchPage;

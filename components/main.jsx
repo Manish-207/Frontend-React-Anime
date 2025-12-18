@@ -1,7 +1,5 @@
 import React from "react";
-import Poster from "./reuse/poster";
 import Chip from "./reuse/chip";
-import Carousel from "./reuse/carousel";
 import { IoMdFolderOpen } from "react-icons/io";
 import PosterList from "./reuse/posterList";
 

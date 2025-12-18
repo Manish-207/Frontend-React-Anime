@@ -5,7 +5,7 @@ import Mobilenav from "./mobilenav";
 const Navbar = () => {
 
   return (
-    <div className="fixed top-0 w-full z-50 bg-[#2c2f38] shadow-md">
+    <div className="fixed top-0 w-full z-50 bg-[#282252] shadow-md">
 
       {/* Desktop Navbar */}
       <Desknav/>

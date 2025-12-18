@@ -39,7 +39,7 @@ const PosterList = ({ Url ,isGrid =false }) => {
         {animeData.map((anime) => (
           <div className="flex-shrink-0">
             <Poster
-              key={anime.mal_id}
+              malid={anime.mal_id}
               image={anime.images.jpg.large_image_url}
               title={anime.title_english}
               rating={anime.score || "N/A"}

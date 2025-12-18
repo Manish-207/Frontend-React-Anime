@@ -6,7 +6,7 @@ import { FaTelegramPlane, FaInstagram, FaRegUser } from "react-icons/fa";
 const Desknav = () => {
   return (
     <div>
-        <nav className="hidden md:flex items-center justify-between h-20 mx-auto px-8 text-amber-50">
+        <nav className="hidden md:flex  items-center justify-between h-20 mx-auto px-8 text-amber-50">
         
         {/* Logo */}
         <div className="flex-shrink-0">

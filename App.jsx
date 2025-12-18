@@ -7,13 +7,17 @@ import { Route, Router, Routes } from "react-router-dom";
 import HomePage from "./pages/home.jsx";
 import AnimePage from "./pages/Anime.jsx";
 import WatchPage from "./pages/watch.jsx";
+import IntroPage from "./pages/Intro.jsx";
+import Construction from "./pages/cunstruction.jsx";
 const App = () => {
   return (
-    <div className="pt-16 md:pt-20 bg-[#1d2028]">
+    <div className="pt-16 md:pt-20 bg-[#0e0a27]">
        <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/anime" element={<AnimePage />} />
-             <Route path="/watch" element={<WatchPage />} />
+            <Route path="/" element={<IntroPage />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="*" element={<Construction />} />
+            <Route path="/anime/:malid" element={<AnimePage />} />
+            <Route path="/watch/:malid" element={<WatchPage />} />
          </Routes>
       
     </div>
